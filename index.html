@@ -121,57 +121,52 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="form-group">
 
-                <div class="row row-content align-items-center">
-                    <div class="col mx-auto">
-                        <div class="card">
-                            <div class="card-header bg-info">
-                                <h3 class="text-white">Reserve a Campsite</h3>
+    
+
+        <div class="row row-content align-items-center">
+            <div class="col mx-auto">
+                <div class="card">
+                    <div class="card-header bg-info">
+                        <h3 class="text-white">Reserve a Campsite</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="reserveForm">
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="numCampers">Number of
+                                    Campers</label>
+                                <div class="col">
+                                    <select class="form-control" name="numCampers" id="numCampers">
+
+                                        <option value="">Select...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <form id="reserveForm">
-                                    <div class="row form-group">
-                                        <label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
-                                        <div class="col">
-                                            <select class="form-control" name="numCampers" id="numCampers">
-
-                                                <option value="" name="numCampers" id="numCampers">Select...</option>
-                                                <option value="1" name="numCampers" id="numCampers">1</option>
-                                                <option value="2" name="numCampers" id="numCampers">2</option>
-                                                <option value="3" name="numCampers" id="numCampers">3</option>
-                                                <option value="4" name="numCampers" id="numCampers">4</option>
-                                                <option value="5" name="numCampers" id="numCampers">5</option>
-                                                <option value="6" name="numCampers" id="numCampers">6</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <label class="col-sm-6 col-form-label" for="date">Date</label>
-                                        <div class="col">
-                                            <input type="date" class="form-control" name="date" id="date" placeholder="date">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col offset-5">
-                                            <button type="button" class="btn btn-primary ">Search</button>
-                                        </div>
-                                    </div>
-
-
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                <div class="col">
+                                    <input type="date" class="form-control" name="date" id="date" placeholder="date">
+                                </div>
                             </div>
-                            </form>
-                        </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-primary ">Search</button>
+                                </div>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
-
-    </div>
     <footer class="site-footer">
         <div class="container">
             <div class="row">
