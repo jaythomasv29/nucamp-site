@@ -1,9 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
+  
+  background-color: #E9ECEF
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   font-family: "Lobster", cursive;
+  
 }
 
 h2 {
