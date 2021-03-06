@@ -46,7 +46,7 @@
 
     <!-- Modal -->
     <div class="modal fade" id="reserveModal" tabindex="-1" aria-labelledby="reserveModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header bg-info">
@@ -82,14 +82,14 @@
                         </div>
                         <!-- Campsite Type -->
                         <div class="row form-group">
-                          <label for="Campsite Type" class="col-sm-6 col-form-label">Campsite Type</label>
+                          <label for="Campsite Type" class="col-sm-6 col-form-label active">Campsite Type</label>
                           <!-- Campsite Type Radio Buttons -->
                           <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-success">
-                                <input type="radio" name="siteType" id="Tent" autocomplete="off">Tent
+                                <input type="radio" name="siteType" id="Tent" autocomplete="off" value="tent" checked>Tent
                               </label>
                               <label class="btn btn-primary">
-                                <input type="radio" name="siteType" id="RV" autocomplete="off">RV
+                                <input type="radio" name="siteType" id="RV" autocomplete="off" value="RV">RV
                               </label>
                           </div>
                         </div>
@@ -143,10 +143,10 @@
     <!-- End Nav Bar -->
     <!-- Start Login Modal -->
     <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
+                <div class="modal-header bg-info">
+                    <h3 class="modal-title text-white">Login</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
