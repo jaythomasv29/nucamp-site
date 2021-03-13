@@ -1,15 +1,16 @@
-const getReservation = () => {
-  const numCampers = document.querySelector('#numCampers').value
-  console.log(numCampers)
-  const date = document.querySelector('#date').value
-  console.log(date)
-  const campType = document.querySelector('input[name=siteType]:checked').value
-  console.log(campType)
+// const getReservation = () => {
+//   const numCampers = document.querySelector('#numCampers').value
+//   console.log(numCampers)
+//   const date = document.querySelector('#date').value
+//   console.log(date)
+//   const campType = document.querySelector('input[name=siteType]:checked').value
+//   console.log(campType)
 
-  alert(`Your reservation is confirmed \n Reservation Details: \n ${numCampers} \n ${date} \n ${campType}`)
-  // use jQuery to close modal after reservation
-  $('#reserveModal').modal('hide');
-}
+//   alert(`Your reservation is confirmed \n Reservation Details: \n ${numCampers} \n ${date} \n ${campType}`)
+//   // use jQuery to close modal after reservation
+//   $('#reserveModal').modal('hide');
+// }
+
 
 
 $(function() {
@@ -25,4 +26,13 @@ $(function() {
           $("#carouselPause").children("i").addClass("fa-pause"); 
       }
   });
+
+
+  $("#reserveButton").on('click', () => {
+    $('#reserveModal').modal('toggle')
+  })
+
+  $("#loginBtn").on('click', () => {
+    $('#loginModal').modal('toggle')
+  })
 });
